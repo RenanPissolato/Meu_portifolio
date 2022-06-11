@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(0.29turn,rgb(47,35,37,1),#000000);
+   
+    font-size: 100%;
+    
+}
+.cabecalho{
+
+
+    padding: 24px;
+    display: flex;
+    flex-direction: row ;
+    align-items: center;
+    justify-content: space-evenly ;
+}
+.cabecalho-imagem{
+  
+    height: 72px;
+
+}
+.navegacao{
+    width: 90%;
+    max-width: 980px;
+    display: flex;
+    gap: 32px;
+}
+.navegacao-item{
+    
+    font-family: 'Sarala', sans-serif;
+    color: #FFF2E7 ;
+    font-weight: 18px;
+}
+.navegacao-item:hover{
+    background-color: #000000;
+}
+.conteudo{
+    border-top: 0.4px solid #E5E5E5;
+    margin-bottom: 48px;
+}
+.Principal{
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.minha-foto-de-perfil{
+    height: 450px
+    
+}
+.conteudo-principal-escrito{
+    
+    width: 90%;
+    max-width: 980px;
+    display: inline-flex;
+    align-content: center;
+    flex-direction: column;
+    gap: 32px;
+}
+.titulo-principal{
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 44px;
+    color: #FFF2E7;
+}
+.sub-titulo{
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 21px;
+    color: #ecd6c4;
+}
+.Segundaria{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:  2px;
+    margin-top: 48px;
+}
+.segundaria-titulo{
+    border-top: 0.4px solid #E5E5E5;
+    margin-bottom: 48px;
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 28px;
+    color: #FFF2E7;
+    margin-bottom: 16px;
+}
+.conteudo-paragrafo{
+    
+    font-family: 'Sarala', sans-serif;
+    font-weight: 350;
+    font-size: 19px;
+    color: #ECD6C4;
+    margin-bottom: 16px;
+}
+.rodape{
+    padding: 32px;
+    border-top: 0.4px solid #E5E5E5;
+}
+.rodape-imagem{
+    height: 200px;
+    display: block;
+    margin: 0 auto;
+}
+.cabecalho-2{
+    padding: 24px;
+    display: flex;
+    flex-direction: row ;
+    align-items: center;
+    justify-content: space-evenly ;
+}
+.conteudo-2{
+    border-top: 0.4px solid #E5E5E5;
+    margin-bottom: 48px;
+}
+.contato{
+    flex-direction: column;
+    font-family: 'Sarala', sans-serif;
+    font-weight: 350;
+    font-size: 19px;
+    color: #ECD6C4;
+    margin-bottom: 16px;
+}
