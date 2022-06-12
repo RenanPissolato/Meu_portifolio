@@ -31,7 +31,7 @@ body{
     gap: 32px;
 }
 .navegacao-item{
-    
+  
     font-family: 'Sarala', sans-serif;
     color: #FFF2E7 ;
     font-weight: 18px;
@@ -42,6 +42,7 @@ body{
 .conteudo{
     border-top: 0.4px solid #E5E5E5;
     margin-bottom: 48px;
+   
 }
 .Principal{
 
@@ -51,7 +52,8 @@ body{
     justify-content: space-around;
 }
 .minha-foto-de-perfil{
-    height: 450px
+    height: 420px
+    
     
 }
 .conteudo-principal-escrito{
@@ -107,6 +109,7 @@ body{
     height: 200px;
     display: block;
     margin: 0 auto;
+
 }
 .cabecalho-2{
     padding: 24px;
@@ -114,16 +117,40 @@ body{
     flex-direction: row ;
     align-items: center;
     justify-content: space-evenly ;
+    
 }
 .conteudo-2{
     border-top: 0.4px solid #E5E5E5;
     margin-bottom: 48px;
+    padding: 24px;
 }
 .contato{
     flex-direction: column;
+    margin: 0 auto;
     font-family: 'Sarala', sans-serif;
     font-weight: 350;
     font-size: 19px;
     color: #ECD6C4;
     margin-bottom: 16px;
+}
+.conteudo-principal-escrito-2{
+    margin: 0 auto;
+    padding: 24px;
+}
+.Informacao-curso{
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 25px;
+    color: #FFF2E7;
+    
+    margin: 0 auto;
+}
+.curso{
+    flex-direction: column;
+    margin: 0 auto;
+    font-family: 'Sarala', sans-serif;
+    font-weight: 350;
+    font-size: 17px;
+    color: #ECD6C4;
+    margin-bottom: 1px;
 }
